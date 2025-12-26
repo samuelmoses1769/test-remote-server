@@ -24,7 +24,7 @@ def server_info() -> str:
         "uptime": "48 hours",
         "active_connections": 120
     }
-    return json.dumps(info)
+    return json.dumps(info,indent=2)
 
 
 if __name__ == "__main__":
